@@ -3,6 +3,16 @@ entries:
   code-server:
   - apiVersion: v2
     appVersion: 4.93.1
+    created: "2024-11-29T14:32:12.965601064Z"
+    description: A Helm chart for coder/code-server
+    digest: 5e251e128a8f1356720935bae0b1b84bb8de9bf4d1188598db14ef845d006a96
+    name: code-server
+    type: application
+    urls:
+    - https://github.com/hobojoe720/helm-charts/releases/download/code-server-3.24.1/code-server-3.24.1.tgz
+    version: 3.24.1
+  - apiVersion: v2
+    appVersion: 4.93.1
     created: "2024-11-05T21:55:51.2163565Z"
     description: A Helm chart for coder/code-server
     digest: ad3d069748ee27e6448b65f169ec6d44dc49dec6635e11b654a5db8c0f2a091a
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://github.com/hobojoe720/helm-charts/releases/download/code-server-3.24.0/code-server-3.24.0.tgz
     version: 3.24.0
-generated: "2024-11-05T21:55:51.216386727Z"
+generated: "2024-11-29T14:32:12.965614249Z"
