@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: codercom/code-server
-  tag: '4.93.1'
+  tag: '4.96.2'
   pullPolicy: Always
 
 # Specifies one or more secrets to be used when pulling images from a
@@ -137,7 +137,7 @@ lifecycle:
   #      - curl -s -L SOME_SCRIPT | bash
 
 ## Enable an Specify container in extraContainers.
-## This is meant to allow adding code-server dependencies, like docker-dind.
+## This is meant to allow adding code-server dependencies, like docker-dind.
 extraContainers: |
 # If docker-dind is used, DOCKER_HOST env is mandatory to set in "extraVars"
 #- name: docker-dind
